@@ -55,6 +55,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile_Road
       objectReference: {fileID: 0}
+    - target: {fileID: 1162809294839096734, guid: c32b76378660cb14a97c1807ab2f771b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223779422132376649, guid: c32b76378660cb14a97c1807ab2f771b, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6692508217417945194, guid: c32b76378660cb14a97c1807ab2f771b, type: 3}
       propertyPath: m_Mesh
       value: 
