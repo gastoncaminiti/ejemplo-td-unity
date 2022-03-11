@@ -45,7 +45,8 @@ public class ObjectPool : MonoBehaviour
         for (int i = 0; i < poll.Length; i++)
         {
             GameObject enemy = poll[i];
-            if (!enemy.activeSelf){
+            if (!enemy.activeSelf)
+            {
                 enemy.SetActive(true);
                 return;
             }

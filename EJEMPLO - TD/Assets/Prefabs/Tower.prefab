@@ -76,6 +76,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 877069856858087360}
   target: {fileID: 0}
+  rangeWeapon: 15
+  weaponMunition: {fileID: 2759048223996474535}
 --- !u!1 &3979237750533717330
 GameObject:
   m_ObjectHideFlags: 0
