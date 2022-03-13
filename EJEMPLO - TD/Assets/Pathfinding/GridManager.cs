@@ -22,8 +22,18 @@ public class GridManager : MonoBehaviour
             {
                 Vector2Int coordinates = new Vector2Int(x, y);
                 grid.Add(coordinates, new Node(coordinates, true));
-                Debug.Log(grid[coordinates].coordinates + " " +grid[coordinates].isWalkable);
+                Debug.Log(grid[coordinates].coordinates + " " + grid[coordinates].isWalkable);
             }
         }
+    }
+
+    public Node GetNode(Vector2Int key)
+    {
+        if (grid.ContainsKey(key))
+        {
+            return grid[key];
+        }
+        
+        return null;
     }
 }
