@@ -92,6 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 75
+  buildDelay: 0.1
 --- !u!1 &3979237750533717330
 GameObject:
   m_ObjectHideFlags: 0
