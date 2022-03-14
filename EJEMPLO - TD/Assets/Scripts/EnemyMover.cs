@@ -15,8 +15,8 @@ public class EnemyMover : MonoBehaviour
 
     void OnEnable()
     {
-        FindPath(true);
         ReturnToStart();
+        FindPath(true);
     }
 
     private void Awake()

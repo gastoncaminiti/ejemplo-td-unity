@@ -4259,11 +4259,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 935710663901101929, guid: 1b38fbe5a37bd87429b77c3a5e4c40d0, type: 3}
       propertyPath: endCoordinates.x
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 935710663901101929, guid: 1b38fbe5a37bd87429b77c3a5e4c40d0, type: 3}
       propertyPath: endCoordinates.y
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 935710663901101929, guid: 1b38fbe5a37bd87429b77c3a5e4c40d0, type: 3}
       propertyPath: startCoordinates.x
